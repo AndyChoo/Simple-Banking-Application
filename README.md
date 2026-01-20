@@ -1,6 +1,14 @@
 # Banking Application
 
-This system simulates real-world banking features such as account creation, deposit, withdrawal, balance inquiry, and fund transfer.
+This system simulates real-world banking features such as account creation, deposit, withdrawal, balance inquiry, and fund transfer.<br/><br/>
+
+Table of Contents
+- Class structure overview (#class-structure-overview)
+    - Account (Base Class) (#account-base-class)
+    - SavingsAccount (Subclass) (#savingsaccount-subclass)
+    - CurrentAccount (Subclass) (#currentaccount-subclass)
+    - Bank (Manager Class) (#bank-manager-class)
+- Contributing (#contributing)
 
 ## Class Sructure Overview
 
@@ -55,6 +63,6 @@ Customizes the withdrawal logic to allow overdraft usage.<br/><br/>
 
 The Bank class manages a collection of Account objects. It provides methods to add accounts, find accounts, and transfer funds between them. This class demonstrates the power of polymorphism, as it works with both SavingsAccount and CurrentAccount objects through their shared Account interface.<br/><br/>
 
-### Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
