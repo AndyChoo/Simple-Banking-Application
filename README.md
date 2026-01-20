@@ -16,47 +16,47 @@ Table of Contents
 
 The Account class represents the base for all account types, encapsulating common properties and behaviors such as:
 
-- accountNumber
+- accountNumber<br/>
 The unique identifier for each account.
 
-- accountHolder
+- accountHolder<br/>
 The name of the person holding the account.
 
-- balance
+- balance<br/>
 The current balance of the account.
 
 Key methods:
-- deposit(double amount)
+- deposit(double amount)<br/>
 Adds the specified amount to the balance.
 
-- withdraw(double amount)
+- withdraw(double amount)<br/>
 Subtracts the specified amount from the balance if sufficient funds are available.
 
-- checkBalance()
+- checkBalance()<br/>
 Displays the current balance.<br/><br/>
 
 ### SavingsAccount (Subclass)
 
 The SavingsAccount class inherits from Account and introduces a new property:
 
-- interestRate
+- interestRate<br/>
 The interest rate associated with the savings account.
 
 Additional methods:
 
-- addInterest()
+- addInterest()<br/>
 Adds interest to the balance based on the interest rate.<br/><br/>
 
 ### CurrentAccount (Subclass)
 
 The CurrentAccount class also inherits from Account but includes an additional feature:
 
-- overdraftLimit
+- overdraftLimit<br/>
 Allows withdrawals even if the balance goes below zero, but only up to the overdraft limit.
 
 Overridden methods:
 
-- withdraw(double amount)
+- withdraw(double amount)<br/>
 Customizes the withdrawal logic to allow overdraft usage.<br/><br/>
 
 ### Bank (Manager Class)
