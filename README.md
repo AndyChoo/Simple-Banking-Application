@@ -25,7 +25,7 @@ Adds the specified amount to the balance.
 Subtracts the specified amount from the balance if sufficient funds are available.
 
 - checkBalance()
-Displays the current balance.
+Displays the current balance.<br/><br/>
 
 ### SavingsAccount (Subclass)
 
@@ -37,7 +37,7 @@ The interest rate associated with the savings account.
 Additional methods:
 
 - addInterest()
-Adds interest to the balance based on the interest rate.
+Adds interest to the balance based on the interest rate.<br/><br/>
 
 ### CurrentAccount (Subclass)
 
@@ -49,11 +49,11 @@ Allows withdrawals even if the balance goes below zero, but only up to the overd
 Overridden methods:
 
 - withdraw(double amount)
-Customizes the withdrawal logic to allow overdraft usage.
+Customizes the withdrawal logic to allow overdraft usage.<br/><br/>
 
 ### Bank (Manager Class)
 
-The Bank class manages a collection of Account objects. It provides methods to add accounts, find accounts, and transfer funds between them. This class demonstrates the power of polymorphism, as it works with both SavingsAccount and CurrentAccount objects through their shared Account interface.
+The Bank class manages a collection of Account objects. It provides methods to add accounts, find accounts, and transfer funds between them. This class demonstrates the power of polymorphism, as it works with both SavingsAccount and CurrentAccount objects through their shared Account interface.<br/><br/>
 
 ### Contributing
 
