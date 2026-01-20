@@ -4,13 +4,13 @@ This system simulates real-world banking features such as account creation, depo
 
 Table of Contents
 - [Class structure overview](#class-structure-overview)
-    - [Account (Base Class)] (#account-base-class)
-    - [SavingsAccount (Subclass)] (#savingsaccount-subclass)
-    - [CurrentAccount (Subclass)] (#currentaccount-subclass)
-    - [Bank (Manager Class)] (#bank-manager-class)
+    - [Account \(Base Class\)] (#account-base-class)
+    - [SavingsAccount \(Subclass\)] (#savingsaccount-subclass)
+    - [CurrentAccount \(Subclass\)] (#currentaccount-subclass)
+    - [Bank \(Manager Class\)] (#bank-manager-class)
 - [Contributing] (#contributing)
 
-## Class Sructure Overview
+## Class Structure Overview
 
 ### Account (Base Class)
 
