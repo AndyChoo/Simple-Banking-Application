@@ -3,12 +3,12 @@
 This system simulates real-world banking features such as account creation, deposit, withdrawal, balance inquiry, and fund transfer.<br/><br/>
 
 Table of Contents
-- Class structure overview (#class-structure-overview)
-    - Account (Base Class) (#account-base-class)
-    - SavingsAccount (Subclass) (#savingsaccount-subclass)
-    - CurrentAccount (Subclass) (#currentaccount-subclass)
-    - Bank (Manager Class) (#bank-manager-class)
-- Contributing (#contributing)
+- [Class structure overview](#class-structure-overview)
+    - [Account (Base Class)] (#account-base-class)
+    - [SavingsAccount (Subclass)] (#savingsaccount-subclass)
+    - [CurrentAccount (Subclass)] (#currentaccount-subclass)
+    - [Bank (Manager Class)] (#bank-manager-class)
+- [Contributing] (#contributing)
 
 ## Class Sructure Overview
 
